@@ -8,9 +8,11 @@ function Home() {
   return (
     <div id="page-home">
       <div className="header-img">
-        <nav className="menu">
-          <Menu />
-        </nav>
+        <div className="menu">
+          <nav>
+            <Menu />
+          </nav>
+        </div>
 
         <div className="text-home">
           <h1>MapsCovid-19</h1>

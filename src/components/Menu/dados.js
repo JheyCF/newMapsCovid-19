@@ -25,29 +25,31 @@ function Menu() {
 
         <nav id="menu-opcao">
           <ul>
-            <div id="page-menu">
-              <li>
-                <Link to="/">
-                  <p>Home </p>
+            <div className="menu-li">
+              <li className="li-option">
+                <Link to="/">Home</Link>
+              </li>
+            </div>
+
+            <div id="page-menu" className="menu-li">
+              <li id="back-menu">
+                <Link to="/data">
+                  <p>Dados</p>
                 </Link>
               </li>
             </div>
 
-            <li id="back-menu">
-              <div className="menu-li">
-                <Link to="/data">Dados</Link>
-              </div>
-            </li>
-            <li>
-              <div className="menu-li">
-                <Link to="/contact">Cuidados </Link>
-              </div>
-            </li>
-            <li>
-              <div className="menu-li">
+            <div className="menu-li">
+              <li className="li-option">
+                <Link to="/Cuidados">Cuidados</Link>
+              </li>
+            </div>
+
+            <div className="menu-li">
+              <li className="li-option">
                 <Link to="/sobre">Sobre</Link>
-              </div>
-            </li>
+              </li>
+            </div>
           </ul>
         </nav>
       </div>

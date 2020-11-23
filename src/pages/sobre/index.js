@@ -10,11 +10,11 @@ import "./styles.css";
 function Sobre() {
   return (
     <div id="pagesobre">
-      <nav>
-        <div>
+      <div className="menu">
+        <nav>
           <Menu />
-        </div>
-      </nav>
+        </nav>
+      </div>
       <main id="mainsobre">
         <article>
           <div className="cardsobre">

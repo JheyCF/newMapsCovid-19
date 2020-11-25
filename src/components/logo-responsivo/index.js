@@ -6,7 +6,7 @@ function LogoResponsivo (){
     return (
         <div id="logo-responsivo">
 
-            <img src={require('./logo.png')} />
+            
             <div id="libra-responsivo">
                 <a href="https://www.vlibras.gov.br/" target="blank">
                 <img src= {require('../Menu/libras.png')} /> </a>

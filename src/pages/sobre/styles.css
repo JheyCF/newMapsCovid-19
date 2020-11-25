@@ -4,6 +4,9 @@
     justify-content: space-between;
 
 }
+#pagesobre .menu{
+   padding-top: 20px;
+}
 
 #mainsobre{
     margin-top: 10px;

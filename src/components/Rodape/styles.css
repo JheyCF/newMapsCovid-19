@@ -4,40 +4,80 @@
     align-items: center;
     width: 100%;
     height: 80px;
-    background-color: #29275f;
+    background-color: #01062A;
 }
 #rodape1{
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     height: 95%;
-    background-color: #29275f; 
+    background-color: #01062A; 
 }
+
+#rodapeP1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+#rodapeP2{ 
+    border-right-width: 1px;
+    border-right-color: white;
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-left-color: white;
+    border-left-style: solid;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#rodapeP3{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
 #rodape2{
+    border-top-width: 1px;
+    border-top-color: white;
+    border-top-style: solid;
     align-items: center;
     display: flex;
     flex-direction: column;
     width: 100%;
     height:40%;
-    background-color: #151436; 
+    background-color: #01062A; 
 }
 #rodape1 p{
     color: white;
     font-size: 15px;
     margin-bottom:2px ;
-    margin-left: 225px;
+
+}
+#rodapeP1 a{
+    color: white;
+    font-size: 12px;
+}
+.titulocontato{
+    color:white;
 }
 
 #rodape2 p{
     color: white;
     font-size: 13px;
-    margin-left: 225px;
+
 }
+#rodape a{
+    color: white;
+}
+
 .rcont{
     color: white;
     font-size: 14px;
-    margin-left: 225px;
+
 }
 .rcont:hover{
    text-decoration: underline;
@@ -56,13 +96,14 @@
 
 @media (max-width:900px){
     #rodape1 p{
-       
-        margin-left: 0px;
+        margin-left: 10px;
+        font-size: 15px;
     }
-    #rodape2 p{
-       
-        margin-left: 0px;
+  
+    .titulocontato{
+        font-size: 12px;
     }
+
     .rcont{
         margin-left: 0px;
     }

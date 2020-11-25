@@ -62,7 +62,7 @@ function Cuidados() {
       <div className="todo-card-baixo">
         <div className="cards-internos-segunda">
           <div id="segunda-linha-esquerda" className="sub-card-esquerda">
-            <div className="text-card">
+            <div className="text-card" id="card4">
               <h3>Como se previnir?</h3>
               <h4>
                 As recomendações de prevenção à COVID-19 são as seguintes:
@@ -105,13 +105,13 @@ function Cuidados() {
             </div>
           </div>
           <div id="segunda-linha-direita" className="sub-card-direita">
-            <div className="text-card">
+            <div className="text-card" >
               <h3>Quais são os sintomas</h3>
               <h4>
                 Os sintomas da COVID-19 podem variar de um simples resfriado até
                 uma pneumonia severa. Sendo os sintomas mais comuns:
               </h4>
-              <ul className="esse">
+              <ul>
                 <li>Tosse</li>
                 <li>Febre</li>
                 <li>Coriza</li>

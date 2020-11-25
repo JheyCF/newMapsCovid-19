@@ -30,17 +30,17 @@ function Menu() {
               </li>
             </div>
 
-            <div id="page-menu" className="menu-li">
-              <li id="back-menu">
-                <Link to="/data">
-                  <p>Dados</p>
-                </Link>
+            <div className="menu-li">
+              <li className="li-option">
+                <Link to="/data">Dados</Link>
               </li>
             </div>
 
-            <div className="menu-li">
-              <li className="li-option">
-                <Link to="/cuidados">Cuidados</Link>
+            <div id="page-menu" className="menu-li">
+              <li id="back-menu">
+                <Link to="/cuidados">
+                  <p>Cuidados</p>
+                </Link>
               </li>
             </div>
 

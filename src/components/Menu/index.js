@@ -24,17 +24,16 @@ function Menu() {
 
         <nav id="menu-opcao">
           <ul>
-            <div className="menu-li">
-              <li className="li-option">
-                <Link to="/">Home</Link>
-              </li>
-            </div>
-
             <div id="page-menu" className="menu-li">
               <li id="back-menu">
-                <Link to="/data">
-                  <p>Dados</p>
+                <Link to="/">
+                  <p>Home</p>
                 </Link>
+              </li>
+            </div>
+            <div className="menu-li">
+              <li className="li-option">
+                <Link to="/data">Dados</Link>
               </li>
             </div>
 

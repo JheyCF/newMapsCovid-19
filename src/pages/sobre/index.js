@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import Menu from "../../components/Menu/sobre";
 
@@ -21,7 +20,6 @@ function Sobre() {
             <h1>Quem somos?</h1>
           </div>
           <div className="cardsobre">
-            
             <p className="textsobre">
               O site MapsCovid-19 foi desenvolvido pela equipe JheyCF (composta
               por Camila Casimiro, Jennifer Silva e Fagne Farias) para uma

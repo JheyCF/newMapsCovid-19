@@ -29,12 +29,9 @@ function Menu() {
                 <Link to="/">Home</Link>
               </li>
             </div>
-
-            <div id="page-menu" className="menu-li">
-              <li id="back-menu">
-                <Link to="/data">
-                  <p>Dados</p>
-                </Link>
+            <div className="menu-li">
+              <li className="li-option">
+                <Link to="/data">Dados</Link>
               </li>
             </div>
 
@@ -44,9 +41,11 @@ function Menu() {
               </li>
             </div>
 
-            <div className="menu-li">
-              <li className="li-option">
-                <Link to="/sobre">Sobre</Link>
+            <div id="page-menu" className="menu-li">
+              <li id="back-menu">
+                <Link to="/sobre">
+                  <p>Sobre</p>
+                </Link>
               </li>
             </div>
           </ul>
@@ -56,7 +55,7 @@ function Menu() {
       <div id="responsivo">
         <nav>
           <ul>
-            <li>
+            <li id="click-responsivo">
               <Link to="/">
                 <FontAwesomeIcon className="fas" icon="home" />
               </Link>
@@ -74,7 +73,7 @@ function Menu() {
               </Link>
             </li>
 
-            <li id="click-responsivo">
+            <li>
               <Link to="/sobre">
                 {" "}
                 <FontAwesomeIcon className="fas" icon="info-circle" />

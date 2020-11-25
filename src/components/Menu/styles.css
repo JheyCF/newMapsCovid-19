@@ -1,3 +1,8 @@
+#todo-menu {
+  display: flex;
+  flex-direction: column;
+}
+
 #menu {
   display: flex;
   flex-direction: row;
@@ -109,21 +114,40 @@
 }
 
 @media (max-width: 900px) {
+  #todo-menu {
+    flex-direction: row-reverse;
+  }
   #menu {
     display: none;
   }
 
   #responsivo {
+    display: block;
+
     width: 100%;
     height: 100%;
     position: fixed;
-    top: 90%;
-    z-index: 200;
-    display: flex;
+    top: 94%;
+    z-index: 210;
     align-content: center;
     justify-content: center;
-    background-color: #151436;
     opacity: 0.9;
+
+    background: linear-gradient(
+        180deg,
+        rgba(53, 72, 79, 0.0952) 0%,
+        rgba(66, 83, 90, 0.1292) 22.4%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      #01062a;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.25);
+  }
+
+  #responsivo nav {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   #responsivo ul {
@@ -138,14 +162,18 @@
     float: left;
     width: 100%;
   }
+
+  #responsivo li :link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
   #responsivo .fas {
     color: rgba(255, 255, 255, 0.582);
-    font-size: 70px;
-    position: relative;
-    padding: 1px 0;
+    font-size: 25px;
     justify-content: space-between;
-    width: 40%;
-    top: -15%;
+    width: 100%;
   }
   #click-responsivo .fas {
     color: #ffffff;

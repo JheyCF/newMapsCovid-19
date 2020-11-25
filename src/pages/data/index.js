@@ -24,7 +24,6 @@ import corona4 from "../../img/corona4.png";
 import corona5 from "../../img/corona5.png";
 import undraw from "../../img/undraw.png";
 
-
 library.add(fas);
 
 class Data extends Component {
@@ -38,7 +37,7 @@ class Data extends Component {
         </nav>
 
         <main id="main-cards">
-          <div className='title'>
+          <div className="title">
             <h1>BOLETIM EPIDEMIOLÓGICO</h1>
           </div>
 
@@ -61,8 +60,8 @@ class Data extends Component {
                 <p className="texto">
                   Cidade do Estado da Paraíba. Os habitantes se chamam
                   sousenses. O município se estende por 738,5 km² e contava com
-                  69 444 habitantes no último censo.A densidade demográfica é
-                  de 94 habitantes por km² no território do município.
+                  69 444 habitantes no último censo.A densidade demográfica é de
+                  94 habitantes por km² no território do município.
                 </p>
 
                 <div className="fonte">
@@ -82,9 +81,7 @@ class Data extends Component {
             </div>
 
             <div id="card-gerais">
-
               <div id="card1">
-
                 <div id="title-data" className="card-filhos">
                   <div id="card-suspeitos" className="paragrafo-data">
                     <h3> Suspeito</h3>
@@ -104,11 +101,9 @@ class Data extends Component {
                     </div>
                   </div>
                 </div>
-              
               </div>
 
               <div id="card2">
-
                 <div id="title-data" className="card-filhos">
                   <div id="card-recuperados" className="paragrafo-data">
                     <h3> Recuperados</h3>
@@ -128,7 +123,6 @@ class Data extends Component {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
 
@@ -147,7 +141,6 @@ class Data extends Component {
         <div>
           <Rodape />
         </div>
-
       </div>
     );
   }

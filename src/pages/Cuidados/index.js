@@ -7,11 +7,11 @@ import "./style.css";
 function Cuidados() {
   return (
     <div className="page-cuidados">
-      <div className="todo-menu">
-        <nav>
+      <nav>
+        <div className="todo-menu">
           <Previnir />
-        </nav>
-      </div>
+        </div>
+      </nav>
       <div className="todo-title">
         <h1>Covid-19</h1>
       </div>

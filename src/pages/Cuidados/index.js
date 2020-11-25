@@ -21,7 +21,7 @@ function Cuidados() {
         <div className="cards-internos">
           <div className="primeira-linha-esquerda">
             <div className="text-card">
-              <h3>O que é?</h3>
+              <h3 id="title-card1">O que é?</h3>
               <p>
                 A COVID-19 é uma doença causada pelo coronavírus SARS-CoV-2, que
                 apresenta um quadro clínico que varia de infecções
@@ -62,8 +62,8 @@ function Cuidados() {
       <div className="todo-card-baixo">
         <div className="cards-internos-segunda">
           <div id="segunda-linha-esquerda" className="sub-card-esquerda">
-            <div className="text-card">
-              <h3>Como se previnir?</h3>
+            <div className="text-card" id="card4">
+              <h3 id="title-card2">Como se previnir?</h3>
               <h4>
                 As recomendações de prevenção à COVID-19 são as seguintes:
               </h4>
@@ -111,7 +111,7 @@ function Cuidados() {
                 Os sintomas da COVID-19 podem variar de um simples resfriado até
                 uma pneumonia severa. Sendo os sintomas mais comuns:
               </h4>
-              <ul className="esse">
+              <ul>
                 <li>Tosse</li>
                 <li>Febre</li>
                 <li>Coriza</li>

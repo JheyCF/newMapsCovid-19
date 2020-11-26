@@ -34,10 +34,21 @@
     width: 50%;
 }
 #rodapeP3{
+    justify-content: space-around;
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 25%;
+}
+#rodapeP3 img{
+
+    height: 50px;
+}
+#vlibras{
+    font-size: 15px;
+}
+#vlibras img{
+    height: 30px;
 }
 
 #rodape2{
@@ -70,6 +81,7 @@
     font-size: 13px;
 
 }
+
 #rodape a{
     color: white;
 }
@@ -109,6 +121,12 @@
     }
     #rodape{
         margin-bottom: 16%;
+    }
+    #rodapeP3{
+        flex-direction: column;
+    }
+    #rodapeP3 img{
+        height: 20px;
     }
    
 }

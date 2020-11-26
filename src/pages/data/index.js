@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
-import Logo from "../../components/logo-responsivo/index";
+import Logo from "../../components/logo-menu";
 
 import Menu from "../../components/Menu/dados";
+
 
 import Rodape from "../../components/Rodape";
 
@@ -30,12 +31,16 @@ class Data extends Component {
   render() {
     return (
       <div id="page-data">
+        <div className="header-menu">
+      <div className="menu">
         <nav>
-          <div className="menu">
-            <Menu />
-          </div>
+          <Menu />
         </nav>
-
+      </div>
+        <div className="logomenu">
+          <Logo />
+      </div> 
+      </div>
         <main id="main-cards">
           <div className="title">
             <h1>BOLETIM EPIDEMIOLÓGICO</h1>
@@ -55,7 +60,6 @@ class Data extends Component {
               </p>
               <div>
                 <div className="logo-responsiva-cont">
-                  <Logo />
                 </div>
                 <p className="texto">
                   Cidade do Estado da Paraíba. Os habitantes se chamam

@@ -2,6 +2,8 @@ import React from "react";
 
 import Menu from "../../components/Menu/sobre";
 
+import Logo from "../../components/logo-menu";
+
 import Rodape from "../../components/Rodape";
 
 import "./styles.css";
@@ -9,11 +11,18 @@ import "./styles.css";
 function Sobre() {
   return (
     <div id="pagesobre">
+      <div className="header-menu">
       <div className="menu">
         <nav>
           <Menu />
         </nav>
       </div>
+        <div className="logomenu">
+          <Logo />
+      </div> 
+    </div>
+
+
       <main id="mainsobre">
         <article>
           <div className="tituloSobre">

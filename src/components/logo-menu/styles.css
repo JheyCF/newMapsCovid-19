@@ -1,17 +1,21 @@
-#logo-menu {
+.logomenu{
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    margin-left: 10px;
 }
-#logo-menu {
-    width: 100%;
+.logomenu img{
+    height: 65px;
+    margin-left: 30px;
+}
+.header-menu{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
-
-#logo-menu img{
-    width: 45%;
-    height: 45%;
-    margin-bottom: 53px;
+@media (max-width:900px){
+ 
+    .logomenu img{
+       height: 55px;
+    }
 }

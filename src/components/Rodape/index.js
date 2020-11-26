@@ -21,15 +21,20 @@ function Rodape (){
                 </div>
                 <div id="rodapeP2">
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2aj1PYksC1_0_G4RRk_ii6Pe-EuIQQEmZFxiWweH6tR4HYw/viewform?usp=pp_url" className="forms"><p> Gostou!? Solicite o cadastro de sua cidade </p> </a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2aj1PYksC1_0_G4RRk_ii6Pe-EuIQQEmZFxiWweH6tR4HYw/viewform?usp=pp_url" target="blank"><FontAwesomeIcon className="fass" icon="arrow-down" /></a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2aj1PYksC1_0_G4RRk_ii6Pe-EuIQQEmZFxiWweH6tR4HYw/viewform?usp=pp_url" target="blank"><FontAwesomeIcon className="fass" icon="arrow-down" /></a> 
                 </div>
                 <div id="rodapeP3">
-                    <p>Logo</p>
+                    <img src={require('./logorodape.png')} />
+                    <div id="vlibras"> 
+                        <a href="https://www.vlibras.gov.br/" target="blank">
+                        <img src= {require('./libras.png')} /> </a>
+                    </div>
+                    
                 </div>
             </div>
            <div id="rodape2">
                 <p>mapscovid.vercel.app</p>
-                <p><FontAwesomeIcon  icon="copyright" />Todos os direitos reservados. 2020 | Desenvolvido por JheyCF</p>
+                <p><FontAwesomeIcon  icon="copyright" />Todos os direitos reservados. 2020 | Desenvolvido por JheyCF /></p> 
            </div>
         </div>
     );

@@ -6,7 +6,7 @@ import "./styles.css";
 function Logo (){
     return (
         <div id="logo-menu">
-            <img src={require('./logo.png')} />
+            <img src={require('./MapsLogo.png')} />
         </div>
     );
 }

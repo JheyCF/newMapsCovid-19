@@ -1,16 +1,27 @@
 import React from "react";
 
-import Previnir from "../../components/Menu/cuidados";
+import Menu from "../../components/Menu/cuidados";
+
+import Logo from "../../components/logo-menu";
+
+import Rodape from "../../components/Rodape";
 
 import "./style.css";
 
 function Cuidados() {
   return (
     <div className="page-cuidados">
-      <div className="todo-menu">
-        <nav>
-          <Previnir />{" "}
-        </nav>
+      <div className="header-menu">
+        <div className="todo-menu">
+          <div className="menu">
+            <nav>
+              <Menu />
+            </nav>
+          </div>
+        </div>
+        <div className="logomenu">
+          <Logo />
+        </div>
       </div>
 
       <div className="todo-title">
@@ -123,7 +134,7 @@ function Cuidados() {
         </div>
       </div>
       <div className="todo-footer">
-        <h1>Footer</h1>
+        <Rodape />
       </div>
     </div>
   );

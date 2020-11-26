@@ -255,6 +255,7 @@
   .card-filhos {
     width: 150px;
     height: 75px;
+    
   }
 
   .card-filhos .paragrafo-data {
@@ -290,5 +291,9 @@
   #cities .fonte p {
     color: black;
     font-size: 7px;
+  }
+
+  .card-filhos, #card-confirmado{
+    box-shadow: 2px 3px 15px #8f8cde;
   }
 }

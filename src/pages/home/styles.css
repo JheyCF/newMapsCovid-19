@@ -19,7 +19,7 @@
 }
 
 .header-img {
-  background-image: url(../../img/corona.svg);
+  background-image: url(../../img/corona.png);
   background-repeat: no-repeat;
 }
 
@@ -78,6 +78,7 @@
 .text-home .button-home button {
   width: 120px;
   height: 44px;
+  border: none;
   border-radius: 10px;
   color: #ffffff;
   background: linear-gradient(
@@ -90,7 +91,22 @@
 }
 
 .text-home .button-home button:hover {
-  background: #33697e;
+  background:  #01062A;
   border: none;
   box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+@media(max-width:900px){
+  
+  .text-home p {
+    width: auto;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0px 20px;
+  }
+
+  .text-home h1 {
+    font-size: 35px;
+  }
 }

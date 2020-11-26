@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Menu from "../../components/Menu/index";
 
@@ -24,7 +25,9 @@ function Home() {
           </p>
 
           <div className="button-home">
-            <button>Button </button>
+            <Link to="/data">
+              <button>Veja os dados</button>
+            </Link>
           </div>
         </div>
       </div>

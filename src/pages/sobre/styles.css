@@ -1,106 +1,97 @@
-#pagesobre{
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-
+#pagesobre {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
 }
-#pagesobre .menu{
-   padding-top: 20px;
+#pagesobre .menu {
+  padding-top: 20px;
 }
 
-#mainsobre{
-    margin-top: 10px;
-    background-color: white;
-    padding: 40px;
-    padding-left: 17%;
-    height: 100vh;
-    justify-content: center;
+#mainsobre {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+
+.tituloSobre h1 {
+  display: flex;
+  justify-content: center;
+  width: 170px;
+  font-size: 23px;
+  text-align: center;
+  padding-bottom: 6px;
+  color: black;
+  border-bottom-width: 3px;
+  border-bottom-color: #35484f;
+  border-bottom-style: solid;
+  margin-bottom: 10px;
+}
+.cardsobre {
+  display: flex;
+  flex-direction: column;
+  height: 430px;
+  width: 800px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgba(53, 72, 79, 0.28);
+  box-shadow: 0px 4px 4px #35484f;
+  border-radius: 15px;
+
+  margin-left: 38px;
+}
+.textsobre {
+  font-size: 14px;
+  text-align: justify;
+  color: black;
+  margin: 13px;
+  text-indent: 20px;
+}
+.logosobre {
+  width: 190px;
+}
+
+@media (max-width: 900px) {
+  #pagesobre {
+    width: 100%;
+  }
+
+  .cardsobre {
+    margin-left: auto;
+    width: 90%;
+    height: 410px;
     align-items: center;
-    
-}
+    margin: auto;
+    margin-top: auto;
+    border-radius: 34px;
+    box-shadow: 3px 3px 33px #8f8cde;
+  }
 
-.tituloSobre h1{
-    margin-left: 350px;
-    justify-content: center;
-    width: 170px;
-    font-size: 22px;
-    text-align: center;
-    padding-bottom: 6px;
-    color: black;
-    border-bottom-width: 3px;
-    border-bottom-color: #35484F;
-    border-bottom-style: solid;
-    margin-bottom: 10px;
-
-}
-.cardsobre{
+  #mainsobre {
     display: flex;
-    flex-direction: column;
-    height: 500px;
-    width: 800px;
-    background-color: white;
-    justify-content: center;
     align-items: center;
-  
-
-    border: 1px solid rgba(53, 72, 79, 0.28);
-    box-shadow: 0px 4px 4px #35484F;
-    border-radius: 15px;
-
-    margin-left: 38px;
-}
-.textsobre{
-    font-size: 14px;
-    text-align: justify;
-    color: black;
-    margin: 13px;
-    text-indent: 20px;
-}
-.logosobre{
-    width: 190px;
-    
-}
-
-@media (max-width:900px){
-    #pagesobre{
-        width: 100%;
-    }
-    
-    .cardsobre{
-        margin-left: auto;
-        width: 90%;
-        height: 410px;
-        align-items: center;
-        margin: auto;
-        margin-top: auto;
-        border-radius: 34px;
-        box-shadow: 3px 3px 33px #8f8cde;
-    }
-
-    #mainsobre{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    #mainsobre{
-        padding: 0px;
-        padding-left: 0%;
-        padding-right: 0%;
-        margin-left: 0px;
-        height: 600px;
-        width: 100%;
-    }
-    .textsobre{
-        font-size: 10px;
-    }
-    .tituloSobre h1{
-        margin-left: 100px;
-        margin-top: auto;
-        padding-bottom: 10px;
-    }
-    .logosobre{
-        width: 85px;
-        
-    }
-
+    justify-content: center;
+  }
+  #mainsobre {
+    padding: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0px;
+    height: 425px;
+    width: 100%;
+  }
+  .textsobre {
+    font-size: 10px;
+  }
+  .tituloSobre h1 {
+    margin-top: 14px;
+    padding-bottom: 10px;
+  }
+  .logosobre {
+    width: 85px;
+  }
 }

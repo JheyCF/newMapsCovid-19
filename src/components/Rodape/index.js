@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom'
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -34,7 +33,7 @@ function Rodape (){
             </div>
            <div id="rodape2">
                 <p>mapscovid.vercel.app</p>
-                <p><FontAwesomeIcon  icon="copyright" />Todos os direitos reservados. 2020 | Desenvolvido por JheyCF /></p> 
+                <p><FontAwesomeIcon  icon="copyright" />Todos os direitos reservados. 2020 | Desenvolvido por JheyCF</p> 
            </div>
         </div>
     );

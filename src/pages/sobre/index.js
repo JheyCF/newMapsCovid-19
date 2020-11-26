@@ -12,23 +12,22 @@ function Sobre() {
   return (
     <div id="pagesobre">
       <div className="header-menu">
-      <div className="menu">
-        <nav>
-          <Menu />
-        </nav>
-      </div>
+        <div className="menu">
+          <nav>
+            <Menu />
+          </nav>
+        </div>
         <div className="logomenu">
           <Logo />
-      </div> 
-    </div>
-
+        </div>
+      </div>
 
       <main id="mainsobre">
         <article>
-          <div className="tituloSobre">
-            <h1>Quem somos?</h1>
-          </div>
           <div className="cardsobre">
+            <div className="tituloSobre">
+              <h1>Quem somos?</h1>
+            </div>
             <p className="textsobre">
               O site MapsCovid-19 foi desenvolvido pela equipe JheyCF (composta
               por Camila Casimiro, Jennifer Silva e Fagne Farias) para uma

@@ -4,19 +4,16 @@
   flex: 1;
 }
 
-
-#page-data .menu{
+#page-data .menu {
   margin-top: 20px;
 }
 
 #main-cards {
-  padding: 40px;
-
   width: 100%;
 }
 
 #main-cards h1 {
-  font-size: 22px;
+  font-size: 26px;
   text-align: center;
   padding-bottom: 10px;
   margin-top: 25px;
@@ -36,7 +33,6 @@
 }
 
 #cities h2 {
-
   font-size: 20px;
   text-align: center;
 }
@@ -85,7 +81,7 @@
   width: 221px;
   height: 91px;
   border: 1px solid rgba(53, 72, 79, 0.28);
-  box-shadow: 0px 4px 4px #35484F;
+  box-shadow: 0px 4px 4px #35484f;
   border-radius: 15px;
 }
 
@@ -96,17 +92,17 @@
 
 .paragrafo-data p {
   font-size: 30px;
-  color:black;
+  color: black;
 }
 
-.info{
+.info {
   display: flex;
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 10px;
 }
 
-.info img{
+.info img {
   width: 45px;
 }
 
@@ -116,13 +112,14 @@
   color: #000000;
 }
 
-#card1, #card2{
+#card1,
+#card2 {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
 
-#card-suspeito{
+#card-suspeito {
   margin-right: 30px;
 }
 
@@ -133,7 +130,7 @@
   margin-top: 50px;
   height: 300px;
   border: 1px solid rgba(53, 72, 79, 0.28);
-  box-shadow: 0px 4px 4px #35484F;
+  box-shadow: 0px 4px 4px #35484f;
   border-radius: 15px;
   margin-right: 150px;
 }
@@ -141,20 +138,20 @@
 #card-confirmado h3 {
   padding: 12px 12px 3px;
   margin-top: 20px;
-
 }
 
-.confirm{
+.confirm {
   display: flex;
+  margin-bottom: 54px;
 }
 
-.confirm img{
+.confirm img {
   width: 50%;
   height: 250px;
   margin-top: 100px;
 }
 
-.title-confirm{
+.title-confirm {
   display: flex;
   font-size: 15px;
   justify-content: space-between;
@@ -191,15 +188,25 @@
   #main-cards h1 {
     margin: auto;
     margin-top: 15px;
+    font-size: 20px;
   }
-  
-  
 
+  #cities h2 {
+    font-size: 18px;
+  }
+
+  #cities p {
+    display: flex;
+
+    margin-top: 12px;
+    font-size: 17px;
+  }
+
+  #cities p,
   #cities .texto {
     margin: auto;
     width: 86%;
     text-align: left;
-
   }
   #dataAtual {
     align-items: flex-end;
@@ -226,7 +233,8 @@
     margin-top: 0px;
   }
 
-  #card1, #card2{
+  #card1,
+  #card2 {
     display: block;
   }
 
@@ -235,13 +243,13 @@
     height: 40vh;
     margin: auto;
     border: 1px solid rgba(53, 72, 79, 0.28);
-    box-shadow: 0px 4px 4px #35484F;
+    box-shadow: 0px 4px 4px #35484f;
     border-radius: 15px;
     margin-bottom: 7%;
   }
 
-  .confirm img{
-      width: 0%;
+  .confirm img {
+    width: 0%;
   }
 
   .card-filhos {
@@ -265,7 +273,7 @@
     margin: 10px;
   }
 
-  .info img{
+  .info img {
     width: 30px;
     margin-bottom: 3px;
   }
@@ -278,7 +286,7 @@
     margin-top: 0px;
     margin-bottom: 15px;
   }
-  
+
   #cities .fonte p {
     color: black;
     font-size: 7px;

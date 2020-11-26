@@ -5,17 +5,17 @@
 }
 
 .page-cuidados {
-  display: grid;
   width: 100vw;
   height: 100vh;
+  /* display: grid;
   grid-template-rows: 70px 50px 300px 300px 50px;
   grid-template-columns: 300px 300px;
-  grid-gap: 25px 8px;
+  grid-gap: 25px 8px; */
 }
 
 .todo-menu {
-  grid-row: 1;
-  grid-column: 1/5;
+  /* grid-row: 1;
+  grid-column: 1/5; */
 
   display: flex;
   justify-content: flex-end;
@@ -23,14 +23,16 @@
 }
 
 .todo-title {
-  grid-row: 2;
-  grid-column: 1/5;
+  /* grid-row: 2;
+  grid-column: 1/5; */
 }
 
 .todo-title {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
+  font-size: 22px;
 }
 
 .todo-card-cima {
@@ -39,6 +41,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .todo-card-baixo {
@@ -47,6 +50,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .cards-internos {
